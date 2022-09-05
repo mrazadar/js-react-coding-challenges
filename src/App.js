@@ -1,11 +1,12 @@
-import React, {useState, useEffect} from 'react';
-import Component from './test-component';
+import React, {} from 'react';
+import TestingCustomHooks from './components/testing-custom-hooks';
 
 const App = () => {
+  
   return(
     <div>
       <h1>Hello world!</h1>
-      {/* <Component /> */}
+      <TestingCustomHooks />
     </div>
   )
 }
